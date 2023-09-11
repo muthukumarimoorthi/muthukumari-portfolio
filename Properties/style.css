@@ -39,14 +39,14 @@ ul{
     list-style-type: none;
     display:flex;
 }
-ul li{
+header ul li{
     margin-right: 55px;
 }
-ul li a {
+header ul li a {
     color: #fff;
     text-decoration: none;
 }
-ul li a:hover{
+header ul li a:hover{
     color: var(--color-orange);
 }
 
@@ -79,7 +79,8 @@ section.main-section {
     justify-content: center;
     display: flex;
     align-items: center;
-    padding: 80px 140px 0 200px;
+    padding: 60px 140px 0 200px;
+    
 }
 
 section h1{
@@ -100,4 +101,33 @@ section button{
 }
 .main-para{
     color: #95978f;
+}
+
+/* ICON */
+
+.social-icon {
+    margin: 20px 0;
+}
+.social-icon li {
+    margin-right: 15px;
+}
+.social-icon li > a {
+    text-decoration: none;
+    color: var(--color-orange);
+    display: flex;
+}
+.social-icon li a > i.fa-square-facebook:hover {
+    color: blue;
+}
+.social-icon li a > i.fa-linkedin:hover {
+    color: #0077B5;
+}
+.social-icon li a > i.fa-square-instagram:hover {
+    color: #F56040;
+}
+.social-icon li a > i.fa-square-twitter:hover {
+    color: #00ACEE;
+}
+main top-icon{
+    top: 10px;
 }
