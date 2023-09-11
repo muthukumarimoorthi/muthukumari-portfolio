@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;0,800;0,900;0,1000;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #1C1919;
+    --color-orange: #FF9B00; 
+}
+
+/*HEADER*/
+
+header .logo{
+    font-weight: bolder;
+    color: var(--color-orange);
+    letter-spacing: 2px;
+}
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: #FF9B00;
+    display: flex;
+    justify-content: space-around;
+}
+header h3 > span{
+    color: #fff;
+    font-family: font-family: 'Oswald', sans-serif;
+}
+
+/*BODY*/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*LIST*/
+
+ul{
+    list-style-type: none;
+    display:flex;
+}
+ul li{
+    margin-right: 55px;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: var(--color-orange);
+}
+
+/*BOTTON*/
+
+header button{
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: var(--color-orange);
+    color: #fff;
+}
+header button:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--color-orange);
+}
+
+/* ICON */
+.main-icon{
+    background-color: var(--primary-color);
+    color: var(--color-orange);
+}
+
+/* SECTION */
+
+section.main-section {
+    background-color: var(--primary-color);
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 80px 140px 0 200px;
+}
+
+section h1{
+      letter-spacing: 2.5px;
+      font-weight: bold;
+      font-size: 80px;
+}
+
+section span{
+    color: var(--color-orange);
+}
+
+section button{
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #fff;  
+}
+.main-para{
+    color: #95978f;
+}
