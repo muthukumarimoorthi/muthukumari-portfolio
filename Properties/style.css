@@ -52,14 +52,15 @@ header ul li a:hover{
 
 /*BOTTON*/
 
-header button{
+.button-cls{
     padding: 10px 15px;
     font-weight: bold;
     border-radius: 20px;
     background-color: var(--color-orange);
     color: #fff;
+    border: none;
 }
-header button:hover{
+button-cls:hover{
     cursor: pointer;
     background-color: var(--primary-color);
     color: var(--color-orange);
@@ -81,6 +82,10 @@ section.main-section {
     align-items: center;
     padding: 60px 140px 0 200px;
     
+}
+.main-section img {
+    padding: 20px 0;
+    border-radius: 200px;
 }
 
 section h1{
@@ -130,4 +135,51 @@ section button{
 }
 main top-icon{
     top: 10px;
+}
+/* ABOUT SECTION */
+.about-section {
+    background-color: #262121;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-section img {
+    
+    border-radius: 150px;
+    border: 0.1 solid #ffb23f;
+    box-shadow: 0 0 10px var(--color-orange);
+}
+
+.about-section ol {
+    list-style: none;
+    margin: 10px 0;
+
+}
+.about-section-text {
+    padding: 50px 120px;
+    max-width: 450px;
+
+}
+.about-section-text h2{
+    font-size: 40px;
+
+
+}
+.about-section-text li {
+    margin-bottom: 15px;
+    color: gray
+    
+}
+.about-section-text li > strong {
+    color: #fff;
+}
+.about-section-text li > a {
+    text-decoration: none;
+    color: #95978f;
+}
+.about-section-text li > a:hover{
+    color: var(--color-orange);
 }
