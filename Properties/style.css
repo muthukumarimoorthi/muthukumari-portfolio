@@ -7,6 +7,9 @@
     --primary-color: #1C1919;
     --color-orange: #FF9B00; 
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /*HEADER*/
 
@@ -252,11 +255,13 @@ main top-icon{
     border-radius: 30px;
     margin-bottom: 15px;
     font-family: 'Oswald', sans-serif;
+    background-color: #dbdbd9;
 }
 .contact-section h3 {
     font-size: 40px;
     margin: 30px 0;
 }
+/* FOOTER */
 footer {
     background-color: var(--primary-color);
     color: gray;
