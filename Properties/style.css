@@ -24,7 +24,7 @@ header {
 }
 header h3 > span{
     color: #fff;
-    font-family: font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /*BODY*/
@@ -238,4 +238,33 @@ main top-icon{
 .hobbies-section-title {
     font-size: 45px;
     margin-bottom: 40px;
+}
+.contact-section {
+    background-color:#262121;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+.contact-section form input, textarea{
+    padding: 5px 10px;
+    width: 350px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.contact-section h3 {
+    font-size: 40px;
+    margin: 30px 0;
+}
+footer {
+    background-color: var(--primary-color);
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: var(--color-orange);
 }
