@@ -183,3 +183,59 @@ main top-icon{
 .about-section-text li > a:hover{
     color: var(--color-orange);
 }
+/* Work Section */
+ .hobbies-section {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+ }
+.hobbies-section-box1 {
+    background-color: #262121;
+    padding: 50px 30px 50px 60px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 100px;
+    border: 0.1 solid #ffb23f;
+    box-shadow: 0 0 10px var(--color-orange);
+    margin-right: 50px;
+    
+}
+.hobbies-section-box1 a {
+    text-decoration: none;
+    color: var(--color-orange);
+
+}
+.hobbies-section-box1-des {
+    margin: 18px 0;
+}
+.hobbies-section-icon {
+    background-color: var(--color-orange);
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.hobbies-section-box1 p {
+    font-weight: 10;
+}
+.hobbies-section-box1:hover {
+    background-color: var(--primary-color);
+}
+.hobbies-section-icon:hover {
+    background-color: violet;
+}
+.hobbies-section-box1-des:hover {
+    color: gray;
+}
+.hobbies-section-box1 a:hover {
+    color: blue;
+}
+.hobbies-section--box {
+    display: flex;
+    justify-content: center;
+}
+.hobbies-section-title {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
