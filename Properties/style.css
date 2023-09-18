@@ -20,7 +20,7 @@ header .logo{
 }
 header {
     background-color: var(--primary-color);
-    padding: 20px;
+    padding: 70px;
     color: #FF9B00;
     display: flex;
     justify-content: space-around;
@@ -48,6 +48,8 @@ header ul li{
 header ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 100;
 }
 header ul li a:hover{
     color: var(--color-orange);
@@ -63,7 +65,7 @@ header ul li a:hover{
     color: #fff;
     border: none;
 }
-button-cls:hover{
+.button-cls:hover{
     cursor: pointer;
     background-color: var(--primary-color);
     color: var(--color-orange);
@@ -121,7 +123,7 @@ section button{
 }
 .social-icon li > a {
     text-decoration: none;
-    color: var(--color-orange);
+    color: #fff;
     display: flex;
 }
 .social-icon li a > i.fa-square-facebook:hover {
@@ -133,8 +135,8 @@ section button{
 .social-icon li a > i.fa-square-instagram:hover {
     color: #F56040;
 }
-.social-icon li a > i.fa-square-twitter:hover {
-    color: #00ACEE;
+.social-icon li a > i.fa-github:hover {
+    color: #6cc644;
 }
 main top-icon{
     top: 10px;
@@ -178,6 +180,7 @@ main top-icon{
 }
 .about-section-text li > strong {
     color: #fff;
+    margin-right: 5px;
 }
 .about-section-text li > a {
     text-decoration: none;
@@ -198,7 +201,7 @@ main top-icon{
     padding: 50px 30px 50px 60px;
     max-width: 300px;
     text-align: left;
-    border-radius: 100px;
+    border-radius: 50px;
     border: 0.1 solid #ffb23f;
     box-shadow: 0 0 10px var(--color-orange);
     margin-right: 50px;
@@ -273,3 +276,22 @@ footer a {
     text-decoration: none;
     color: var(--color-orange);
 }
+
+
+
+/* MEDIA Query */
+
+/* @media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header > * {
+        margin-bottom: 10px;
+    }
+    /* MAIN SECTION */
+
+    
+
