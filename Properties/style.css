@@ -281,17 +281,111 @@ footer a {
 
 /* MEDIA Query */
 
-/* @media only screen and (max-width: 600px) {
+/* * Media Query Starts Here* */
+
+@media only screen and (max-width: 600px) {
     header {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    header ul li {
+        margin-right: 20px;
+    }
+
+    .class-list {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0;
+    }
+
+    .logo-container {
+        padding-bottom: 10px;
+        display: flex;
         justify-content: center;
     }
-    header > * {
-        margin-bottom: 10px;
+
+    .header-button {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
     }
-    /* MAIN SECTION */
+
+    .class-list {
+        padding-bottom: 10px;
+    }
+
+    .class-list li a {
+        font-size: 15px;
+    }
+
+    .girl-avatar {
+        display: none;
+    }
+
+    .main-section {
+        flex-direction: column;
+        /* padding: 100px; */
+
+    }
+
+    section.main-section {
+        padding-bottom: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about-section {
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    .about-section h2 {
+        text-align:  center;
+    }
+
+    .about-section ol {
+        padding: 20px 0;
+    }
+
+    .hobbies-section {
+        padding: 100px 0;
+    }
+
+    .hobbies-section--box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .main-section h1 {
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .main-para {
+        max-width: 380px;
+        padding-bottom: 10px;
+    }
+
+    .main-para, h4 {
+        text-align: center;
+    }
+
+    ul.social-icon {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-section form input, textarea {
+        width: 250px;
+    }
+}
+
 
     
 
